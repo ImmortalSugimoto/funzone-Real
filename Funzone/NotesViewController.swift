@@ -34,7 +34,7 @@ class NotesViewController: UIViewController {
         let req : [String: Any] = [kSecClass as String: kSecClassGenericPassword,kSecAttrAccount as String:noteTextField.text, kSecReturnAttributes as String: true, kSecReturnData as String: true]
 
         var res: CFTypeRef?
-
+//pizza
         if SecItemCopyMatching(req as CFDictionary, &res) == noErr{
 
             let data = res as? [String: Any]

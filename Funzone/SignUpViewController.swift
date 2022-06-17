@@ -22,7 +22,7 @@ class SignUpViewController: UIViewController {
     @IBAction func SaveInfo(_ sender: Any) {
         
         var data = DBUser.dbUser.addData(nameValue: name.text!, passwordValue: newPassword.text!)
-        
+            //pizza
     }
     
     /*

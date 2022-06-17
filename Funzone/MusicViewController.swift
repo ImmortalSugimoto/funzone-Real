@@ -31,7 +31,7 @@ class MusicViewController: UIViewController, UICollectionViewDelegate, UICollect
         cell.name.textAlignment = .center
         
         
-        
+        //pizza
         return cell
     }
     

@@ -22,7 +22,7 @@ class NoteTableView: UITableViewController
         for note in noteList
         {
             if(note.deletedData == nil)
-            {
+            {  //pizzza
                 noDeleteNoteList.append(note)
             }
         }

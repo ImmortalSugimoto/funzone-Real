@@ -12,5 +12,5 @@ class BooksCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var bookImg: UIImageView!
     
     
-    
+    //pizza
 }

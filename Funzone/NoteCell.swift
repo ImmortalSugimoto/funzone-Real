@@ -15,3 +15,4 @@ class NoteCell: UITableViewCell{
     @IBOutlet weak var descLabel: UILabel!
     
 }
+//izza

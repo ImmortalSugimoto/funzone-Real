@@ -32,7 +32,7 @@ class BooksViewController: UIViewController, UICollectionViewDelegate, UICollect
         cell.bookImg.image =  UIImage(named: pics[indexPath.row])
         cell.bookName.textColor = .white
         
-        
+        //pizza
         
         
         
