@@ -20,7 +20,7 @@ class MusicViewController: UIViewController, UICollectionViewDelegate, UICollect
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         var cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell2", for: indexPath) as! MusicCollectionViewCell
-        
+        //pizza
         
         cell.layer.cornerRadius = 5.0
         cell.layer.masksToBounds = true
